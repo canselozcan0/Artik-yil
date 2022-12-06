@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Driver {
+public static void main(String[] args) {
+	int year;
+	
+	Scanner input = new Scanner(System.in);
+	System.out.println("Yıl Giriniz: ");
+	year = input.nextInt();
+	if(year % 100 == 0) {
+		if (year % 400==0) {
+		System.out.println("Artık yıl girdiniz");}
+	else {
+		System.out.println("Artık yıl değiildir!!!!");
+	}}
+	else if (year % 4 == 0 ) {
+			System.out.println("Artık yıl girdiniz");
+		}
+		else {
+			System.out.println("Artık yıl girmediniz!!!");
+		}
+	}
+	}

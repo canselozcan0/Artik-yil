@@ -1,1 +1,1 @@
-# Artik-yil
+ www.patika.dev
